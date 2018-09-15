@@ -1,0 +1,27 @@
+.m-tabBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 98px;
+  background-color: #fafafa;
+  border-top: 1px solid #d9d9d9;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.m-tabBar>.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  color: #636363;
+}
+.m-tabBar>.item.active {
+  color: #b4282d;
+}
+.m-tabBar>.item>.iconfont {
+  font-size: 40px;
+  margin-bottom: 10px;
+}

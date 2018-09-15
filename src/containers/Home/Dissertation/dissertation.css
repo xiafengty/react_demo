@@ -1,0 +1,63 @@
+#dissert {
+  border-top: 20px solid #e4e4e4;
+  width: 100%;
+  height: 563px;
+  background: #fff;
+  padding-top: 20px;
+}
+#dissert .dissert_header {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+  line-height: 110px;
+  font-size: 30px;
+}
+#dissert .dissert_header >i {
+  font-size: 35px;
+  color: #bbb;
+}
+#dissert .dissert_content {
+  overflow: hidden;
+  width: 100%;
+  height: 463px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+#dissert .dissert_content .dissert_ul {
+  display: flex;
+}
+#dissert .dissert_content .dissert_ul .dissertLi {
+  width: 575px;
+  margin-left: 20px;
+}
+#dissert .dissert_content .dissert_ul .dissertLi .dissertLi_img {
+  width: 575px;
+  height: 322px;
+}
+#dissert .dissert_content .dissert_ul .dissertLi .dissertLi_img >img {
+  width: 100%;
+  height: 100%;
+}
+#dissert .dissert_content .dissert_ul .dissertLi .dissertLi_con {
+  display: flex;
+  justify-content: space-between;
+}
+#dissert .dissert_content .dissert_ul .dissertLi .dissertLi_con .dissertLi_con1 {
+  margin-top: 20px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#dissert .dissert_content .dissert_ul .dissertLi .dissertLi_con .dissertLi_con1 .dissertLi_con11 {
+  font-size: 28px;
+}
+#dissert .dissert_content .dissert_ul .dissertLi .dissertLi_con .dissertLi_con1 .dissertLi_con12 {
+  color: #8c8c8c;
+}
+#dissert .dissert_content .dissert_ul .dissertLi .dissertLi_con .dissertLi_con2 {
+  text-align: center;
+  color: #b4282d;
+  font-size: 26px;
+  margin-top: 27px;
+}

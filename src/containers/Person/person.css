@@ -1,0 +1,354 @@
+#person {
+  width: 100%;
+  background: #fff;
+  height: 1330px;
+}
+#person .ps_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 88px;
+  background: #fafafa;
+  text-align: center;
+  line-height: 88px;
+}
+#person .ps_header .iconfont {
+  font-size: 50px;
+  color: #474747;
+}
+#person .ps_header >span {
+  font-size: 38px;
+  font-family: "宋体";
+  font-weight: bold;
+}
+#person .ps_header .topicd {
+  display: inline-block;
+}
+#person .ps_header .topic_header1 {
+  width: 19%;
+}
+#person .ps_header .topic_header1 .icon1 {
+  margin-right: 40px;
+}
+#person .ps_header .topic_header2 {
+  width: 60%;
+}
+#person .ps_header .topic_header3 {
+  width: 19%;
+}
+#person .ps_header .topic_header3 .icon3 {
+  margin-left: 15px;
+  margin-right: 30px;
+}
+#person .ps_contentOne {
+  width: 100%;
+  height: 1246px;
+  background: #f2f5f4;
+  text-align: center;
+  position: relative;
+  padding-top: 88px;
+}
+#person .ps_contentOne .psc1_title {
+  display: inline-block;
+  width: 236px;
+  height: 90px;
+  padding: 160px 0;
+}
+#person .ps_contentOne .psc1_title >img {
+  width: 100%;
+  height: 100%;
+}
+#person .ps_contentOne .psc1_login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#person .ps_contentOne .psc1_login .psc1l_phone {
+  background: #b4282d;
+  margin-bottom: 30px;
+  color: #fff;
+}
+#person .ps_contentOne .psc1_login .psc1l_mail {
+  color: #b4282d;
+}
+#person .ps_contentOne .psc1_login >div {
+  width: 670px;
+  height: 94px;
+  border: 1px solid #b4282d;
+  text-align: center;
+  line-height: 94px;
+  font-size: 28px;
+}
+#person .ps_contentOne .psc1_login >div .iconfont {
+  font-size: 40px;
+  vertical-align: middle;
+}
+#person .ps_contentOne .psc1_register {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 28px;
+}
+#person .ps_contentOne .psc1_register .iconfont {
+  font-size: 35px;
+  vertical-align: middle;
+}
+#person .ps_contentOne .psc1_other {
+  width: 100%;
+  height: 40px;
+  font-size: 28px;
+  color: #7f7f7f;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+}
+#person .ps_contentOne .psc1_other >div {
+  width: 180px;
+  height: 100%;
+  line-height: 40px;
+  text-align: center;
+  border-left: 1px solid #7f7f7f;
+}
+#person .ps_contentOne .psc1_other >div .iconfont {
+  font-size: 30px;
+  vertical-align: middle;
+}
+#person .ps_contentOne .psc1_other .psc1_wx {
+  border-left: 0 solid #7f7f7f;
+}
+#person .ps_contentTwo {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 88px 30px 0;
+}
+#person .ps_contentTwo .psc2_img {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+#person .ps_contentTwo .psc2_img >img {
+  width: 192px;
+  height: 64px;
+}
+#person .ps_contentTwo .psc2_verify {
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+  margin-top: 70px;
+}
+#person .ps_contentTwo .psc2_verify .psc2_vpw {
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #dedede;
+  line-height: 90px;
+  text-indent: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+#person .ps_contentTwo .psc2_verify .psc2_vpw .psc2_getVerify {
+  padding: 0 15px 0 0;
+  border: 1px solid #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 15px;
+  font-size: 28px;
+}
+#person .ps_contentTwo .psc2_verify .psc2_vpw >input {
+  width: 590px;
+  height: 43px;
+}
+#person .ps_contentTwo .psc2_verify .psc2_vpw >input::-webkit-input-placeholder {
+  font-size: 28px;
+}
+#person .ps_contentTwo .psc2_quest {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+  margin-top: 40px;
+}
+#person .ps_contentTwo .psc2_quest .psc2_q1 {
+  color: #7d7d7d;
+}
+#person .ps_contentTwo .psc2_btn {
+  width: 100%;
+  margin-top: 50px;
+}
+#person .ps_contentTwo .psc2_btn >div {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #b4282d;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 28px;
+}
+#person .ps_contentTwo .psc2_btn .psc2_btn1 {
+  background: #b4282d;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#person .ps_contentTwo .psc2_btn .psc2_btn2 {
+  color: #b4282d;
+}
+#person .ps_contentTwo .psc2_reg {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 28px;
+}
+#person .ps_contentTwo .psc2_reg .iconfont {
+  font-size: 40px;
+  vertical-align: middle;
+}
+#person .ps_contentThree {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 88px 30px 0;
+}
+#person .ps_contentThree .psc2_img {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+#person .ps_contentThree .psc2_img >img {
+  width: 192px;
+  height: 64px;
+}
+#person .ps_contentThree .psc2_verify {
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+  margin-top: 70px;
+}
+#person .ps_contentThree .psc2_verify .psc2_vpw {
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #dedede;
+  line-height: 90px;
+  text-indent: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+#person .ps_contentThree .psc2_verify .psc2_vpw >input {
+  width: 590px;
+  height: 43px;
+}
+#person .ps_contentThree .psc2_verify .psc2_vpw >input::-webkit-input-placeholder {
+  font-size: 28px;
+}
+#person .ps_contentThree .psc2_quest {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+  margin-top: 40px;
+  color: #7d7d7d;
+}
+#person .ps_contentThree .psc2_btn {
+  width: 100%;
+  margin-top: 50px;
+}
+#person .ps_contentThree .psc2_btn >div {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #b4282d;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 28px;
+}
+#person .ps_contentThree .psc2_btn .psc2_btn1 {
+  background: #b4282d;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#person .ps_contentThree .psc2_btn .psc2_btn2 {
+  color: #b4282d;
+}
+#person .ps_contentFour {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 88px 30px 0;
+}
+#person .ps_contentFour .psc2_img {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 35px;
+}
+#person .ps_contentFour .psc2_verify {
+  width: 100%;
+  height: 395px;
+  overflow: hidden;
+  margin-top: 70px;
+}
+#person .ps_contentFour .psc2_verify .psc2_vpw {
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #dedede;
+  line-height: 90px;
+  text-indent: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+#person .ps_contentFour .psc2_verify .psc2_vpw .psc2_getVerify {
+  padding: 0 15px 0 0;
+  border: 1px solid #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 15px;
+  font-size: 28px;
+}
+#person .ps_contentFour .psc2_verify .psc2_vpw >input {
+  width: 590px;
+  height: 43px;
+}
+#person .ps_contentFour .psc2_verify .psc2_vpw >input::-webkit-input-placeholder {
+  font-size: 28px;
+}
+#person .ps_contentFour .psc2_btn {
+  width: 100%;
+  margin-top: 50px;
+}
+#person .ps_contentFour .psc2_btn >div {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #b4282d;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 28px;
+}
+#person .ps_contentFour .psc2_btn .psc2_btn1 {
+  background: #b4282d;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#person .ps_contentFour .psc2_rul {
+  color: #7f7f7f;
+}
+#person .ps_contentFour .psc2_rul >span {
+  color: #007aff;
+}
+#person .ps_contentFour .psc2_reg {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 28px;
+}
+#person .ps_contentFour .psc2_reg .iconfont {
+  font-size: 40px;
+  vertical-align: middle;
+}

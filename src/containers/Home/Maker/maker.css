@@ -1,0 +1,71 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+#mask {
+  background-color: #fff;
+  width: 100%;
+  height: 606px;
+  margin-top: 20px;
+  color: #333;
+}
+#mask .header {
+  padding-top: 15px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  line-height: 100px;
+  margin-bottom: 10px;
+}
+#mask .header >i {
+  font-size: 35px;
+  color: #959595;
+}
+#mask .blurb {
+  width: 100%;
+  height: 486px;
+}
+#mask .blurb .blurb_ul {
+  margin-left: 10px;
+  margin-bottom: -18px;
+}
+#mask .blurb .blurb_ul .blurb_li {
+  position: relative;
+  width: 355px;
+  height: 236px;
+  float: left;
+  background-color: #f4f4f4;
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+}
+#mask .blurb .blurb_ul .blurb_li >img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#mask .blurb .blurb_ul .blurb_li .blurb_li_text {
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+}
+#mask .blurb .blurb_ul .blurb_li .blurb_li_text .text1 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#mask .blurb .blurb_ul .blurb_li .blurb_li_text .upNew {
+  border: 0.5px solid #dd8500;
+  width: 46px;
+  color: #dd8500;
+  font-size: 23px;
+  padding: 3px 5px;
+}

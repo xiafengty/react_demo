@@ -1,0 +1,62 @@
+#limited {
+  background-color: #fff;
+  width: 100%;
+  height: 380px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  border-top: 20px solid #e4e4e4;
+}
+#limited .limited_text {
+  width: 334px;
+  height: 320px;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#limited .limited_text .limited_text1 {
+  font-size: 36px;
+  letter-spacing: 15px;
+}
+#limited .limited_text .limited_text2 {
+  font-size: 32px;
+}
+#limited .limited_text .limited_text2 >span {
+  color: #fff;
+  display: inline-block;
+  width: 62px;
+  height: 56px;
+  background-color: #444;
+  text-align: center;
+  line-height: 56px;
+}
+#limited .limited_text .limited_text3 {
+  font-size: 25px;
+}
+#limited .limited_img {
+  width: 320px;
+  height: 320px;
+}
+#limited .limited_price {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: rgba(244,143,24,0.95);
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+}
+#limited .limited_price .limited_price_con {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-size: 26px;
+  margin-top: 16px;
+  margin-left: 12px;
+}
+#limited .limited_price .limited_price_con .limited_price_con2 {
+  text-decoration: line-through;
+}
